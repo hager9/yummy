@@ -1,0 +1,47 @@
+
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6;
+    overflow: hidden;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.nav-header img{
+    width: 50px;
+}
+
+.nav-tab{
+    background-color: #0D0D0D;
+}
+
+.side-nav-menu{
+    left: -241.429px;
+    z-index: 2;
+}
+.active{
+    left: 0px;
+}
+.links ul li{
+    top: 300px;
+}
+.meal-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+}
+.meal:hover .meal-layer{
+    top: 0;
+}
+
+.fa-spin{
+    font-size: 6rem;
+}
+
+.loading-screen,
+.inner-loading-screen{
+    display: flex;
+}
